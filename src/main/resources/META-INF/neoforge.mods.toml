@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "simplecopy"
+version = "${version}"
+displayName = "Simple Copy"
+authors = "iKairo"
+description = '''
+Duplicate enchanted books with an anvil
+'''
+logoFile = "logo.png"
+
+[[dependencies.simplecopy]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.simplecopy]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "simplecopy.mixins.json"

@@ -1,0 +1,3 @@
+/gamemode survival
+/xp set Dev 2 levels
+/gamemode creative
